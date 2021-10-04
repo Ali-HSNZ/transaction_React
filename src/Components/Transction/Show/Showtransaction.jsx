@@ -24,7 +24,7 @@ const ShowTransaction = ({transaction , hazine , darAmad , Search , deleteHandle
 
             <div className={Styles.resultParent}>
 
-                {transaction.length === 0 &&   <div dir="center" style={{justifyContent:'center'}} className={Styles.result}><p>داده ای ثبت نشده است</p></div>}
+                {transaction.length === 0 &&   <div dir="center" style={{justifyContent:'center'}} className={Styles.result}><p>تراکنش ای ثبت نشده است</p></div>}
 
                 {transaction.map((item) => {
                     return (

@@ -9,6 +9,14 @@
     margin-left: -1px;
     border:1px solid rgb(3, 0, 153);
 }
+.group_title{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-family: iransansweb;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
 .group{
     width: 100%;
     height: auto;
@@ -21,13 +29,16 @@
 }
 .inputGroup{
     outline: none;
-    border: 1px solid gray;
+    border: 1px solid  rgb(3, 0, 153);
     border-radius: 5px;
     height: 30px;
     font-family: iransansweb;
     padding: 0 10px;
     font-size: 13px;
     margin-right :5px;
+}
+.inputGroup:focus{
+   box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
 }
 .priceInput{
     width: 160px;
@@ -64,11 +75,11 @@ input[type='radio']:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #d1d3d1;
+    background-color: white;
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 2px solid white;
+    border: 1px solid rgb(3, 0, 153);
 }
 input[type='radio']:checked:after {
     width: 15px;
@@ -77,11 +88,11 @@ input[type='radio']:checked:after {
     top: -2px;
     left: -1px;
     position: relative;
-    background-color: #6b6b6b;
+    background-color: rgb(3, 0, 153);
     content: '';
     display: inline-block;
     visibility: visible;
-    border: 2px solid white;
+    border: 1px solid rgb(3, 0, 153);
 }
 
 .submitBtn{
@@ -94,7 +105,7 @@ input[type='radio']:checked:after {
     font-family: 'iransansweb';
     cursor: pointer;
     margin-top: 15px;
-    box-shadow: 0 0 3px 0 rgb(192, 192, 192);
+    box-shadow: 0 0 2px 0 rgba(16, 0, 107, 0.418);
 
 }
 .submitBtn:hover{

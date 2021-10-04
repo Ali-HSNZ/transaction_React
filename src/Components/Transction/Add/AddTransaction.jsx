@@ -47,6 +47,7 @@ const AddTransaction = ({addTransaction}) => {
         
         <form onSubmit={submitHandler} className={Styles.addTransaction}>
             
+            <div className={Styles.group_title}><p dir='rtl'>ثبت تراکنش : </p></div>
             <div className={Styles.group}>
                 <input 
                     type="text" 
