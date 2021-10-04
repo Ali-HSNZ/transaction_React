@@ -18,7 +18,7 @@ const ShowTransaction = ({transaction , expense , income , Search , deleteHandle
             </div>
 
             <div className={Styles.searchBox}>
-                <input type='text' dir='rtl' placeholder='جستجو بر اساس نام فعالیت' onChange={e => Search(e.target.value)}/>
+                <input type='text' dir='rtl' placeholder='جستجو بر اساس نام تراکنش' onChange={e => Search(e.target.value)}/>
                 <p dir='rtl'>جستجو : </p>
             </div>
 

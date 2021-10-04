@@ -65,7 +65,7 @@
     padding:0 10px ;
     border-radius:5px ;
     font-family: iransansweb;
-    font-size: 14px;
+    font-size: 13px;
 }
 .searchBox input:focus{
     box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
