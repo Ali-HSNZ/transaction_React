@@ -1,21 +1,20 @@
-import Sort from "../../Sort/Sort";
 import  Styles  from "./ShowTransaction.module.css";
 
 
-const ShowTransaction = ({transaction , hazine , darAmad , Search , deleteHandler , SortItem}) => {
+const ShowTransaction = ({transaction , expense , income , Search , deleteHandler}) => {
     
     return (  
         <div className={Styles.ShowTransaction}>
             
             <div className={Styles.parentTitle}>
                 <span>تومان </span>
-               <p style={darAmad-hazine < 0 ? {color : "red"} : {color : "#258f01"}}> { darAmad - hazine}</p>
+               <p style={income-expense < 0 ? {color : "red"} : {color : "#258f01"}}> { income - expense}</p>
                <p dir="rtl" style={{marginLeft:'5px'}}>  موجودی : </p>
             </div>
 
             <div className={Styles.incomeExpense_Parent}>
-                <div className={Styles.incomeResult}><p>درآمد</p><span style={{color : "#258f01"}}>{darAmad}</span></div>
-                <div className={Styles.expenseResult}><p>هزینه</p><span style={{color : "red"}}>{hazine}</span></div>
+                <div className={Styles.incomeResult}><p>درآمد</p><span style={{color : "#258f01"}}>{income}</span></div>
+                <div className={Styles.expenseResult}><p>هزینه</p><span style={{color : "red"}}>{expense}</span></div>
             </div>
 
             <div className={Styles.searchBox}>
@@ -29,7 +28,7 @@ const ShowTransaction = ({transaction , hazine , darAmad , Search , deleteHandle
 
                 {transaction.map((item) => {
                     return (
-                        <div key={item.id} className={`${Styles.result}  ${item.action === "درآمد" ? Styles.resultIncome : Styles.resultExpense} `}>
+                        <div key={item.id} className={`${Styles.result}  ${item.action === "income" ? Styles.resultIncome : Styles.resultExpense} `}>
                             <p>{item.price}</p>
                             <div className={Styles.name_btn_parent}>
                                 <p>{item.name}</p>

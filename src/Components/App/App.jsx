@@ -1,5 +1,4 @@
 import { useState , useEffect } from "react";
-import Sort from "../Sort/Sort";
 import AddTransaction from "../Transction/Add/AddTransaction";
 import ShowTransaction from "../Transction/Show/Showtransaction";
 import  Styles  from "./App.module.css";
@@ -9,14 +8,14 @@ const App = () => {
 
     const [transaction , setTransaction] = useState([])
     const [filterTransaction , setFilterTransaction] = useState([])
-    const [hazine , setHazine] = useState([])
-    const [darAmad , setDarAmad] = useState([])
+    const [expense , setExpense] = useState([])
+    const [income , setIncome] = useState([])
 
     
     const addTransaction = (getTransaction) => {
         setTransaction([...transaction , {...getTransaction,id : Date.now()}])
     }
-
+    
     const Search = (e)=> {
 
         if(e === ""){
@@ -35,14 +34,13 @@ const App = () => {
         setTransaction(transaction.filter(item => item.id !== id))
         
         
-        if(findItem.action === "هزینه"){
-           const hazine = findItem.price;
-           setHazine(e => e - hazine)
+        if(findItem.action === "income"){
+           const income = findItem.price;
+           setExpense(e => e - income)
         }else{
-            const darAmad = findItem.price;
-            setDarAmad(e => e - darAmad)
+            const expense = findItem.price;
+            setIncome(e => e - expense)
         }
-        SortItem('')
     }
 
     const SortItem = (e)=> {
@@ -56,14 +54,14 @@ const App = () => {
 
     useEffect(()=>{
 
-        var hazine = 0;
-        var darAmad = 0;
+        var income = 0;
+        var expense = 0;
 
         transaction.forEach(item => {
-            item.action === "هزینه" ? (hazine = hazine + item.price) : (darAmad = darAmad + item.price)
+            item.action === "expense" ? (expense = expense + item.price) : (income = income + item.price)
         });
-        setHazine(hazine)
-        setDarAmad(darAmad)
+        setExpense(expense)
+        setIncome(income)
 
         setFilterTransaction(transaction)
     },[transaction])
@@ -74,7 +72,7 @@ const App = () => {
         <div className={Styles.parent}>
             <div className={Styles.parent_center}>
                
-                <ShowTransaction transaction={filterTransaction} deleteHandler={deleteHandler} Search ={Search} hazine = {hazine} darAmad={darAmad}/>
+                <ShowTransaction transaction={filterTransaction} deleteHandler={deleteHandler} Search ={Search} expense = {expense} income={income}/>
                 <AddTransaction SortItem={SortItem} addTransaction={addTransaction} />
             </div>
         </div>

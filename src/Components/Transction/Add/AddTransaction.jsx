@@ -82,13 +82,13 @@ const AddTransaction = ({addTransaction , SortItem}) => {
 
                     <div className={Styles.radioCenter}>
                         <label className={Styles.radioLabel} htmlFor='income'>درآمد</label>
-                        <input type='radio' onChange={changeHandler} id="income" className={Styles.incomeRadio} name='action' value='درآمد'/>
+                        <input type='radio' onChange={changeHandler} id="income" className={Styles.incomeRadio} name='action' value='income'/>
                     </div>
 
                 
                     <div className={Styles.radioCenter}>
                         <label className={Styles.radioLabel} htmlFor='expense'>هزینه</label>
-                        <input type='radio'  onChange={changeHandler} id='expense' className={Styles.expenseRadio}  name='action' value="هزینه" />
+                        <input type='radio'  onChange={changeHandler} id='expense' className={Styles.expenseRadio}  name='action' value="expense" />
                     </div>
                     
 

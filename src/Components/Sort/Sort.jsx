@@ -5,8 +5,8 @@ const Sort = ({SortItem}) => {
 
     const options = [
         { value: '', label: 'نمایش همه' },
-        { value: 'هزینه', label: 'هزینه' },
-        { value: 'درآمد', label: 'درآمد' }
+        { value: 'expense', label: 'هزینه' },
+        { value: 'income', label: 'درآمد' }
     ]
     
     return ( 
