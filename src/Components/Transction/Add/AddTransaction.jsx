@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import Styles from './AddTransaction.module.css'
 const AddTransaction = ({addTransaction}) => {
 

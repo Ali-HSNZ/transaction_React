@@ -27,7 +27,6 @@ const App = () => {
     }
 
     const deleteHandler = (id)=> {
-        console.log(id)
         const findIndex = transaction.findIndex(item => item.id === id)
         const findItem = transaction[findIndex]
 
@@ -42,7 +41,6 @@ const App = () => {
             const darAmad = findItem.price;
             setDarAmad(e => e - darAmad)
         }
-        // console.log(findItem) 
     }
 
 
