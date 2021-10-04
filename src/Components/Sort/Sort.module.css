@@ -1,0 +1,25 @@
+.parent{
+    width: auto;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(3, 0, 153);
+    border-radius: 0 0 15px 0;
+    background-color: white;
+    padding: 15px;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+.parent p{
+    font-family: iransansweb;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.sort{
+    width: 150px;
+    font-size: 14px;
+    font-family: iransansweb;
+    text-align: center;
+    direction: rtl;
+}

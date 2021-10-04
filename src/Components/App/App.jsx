@@ -1,4 +1,5 @@
 import { useState , useEffect } from "react";
+import Sort from "../Sort/Sort";
 import AddTransaction from "../Transction/Add/AddTransaction";
 import ShowTransaction from "../Transction/Show/Showtransaction";
 import  Styles  from "./App.module.css";
@@ -41,8 +42,17 @@ const App = () => {
             const darAmad = findItem.price;
             setDarAmad(e => e - darAmad)
         }
+        SortItem('')
     }
 
+    const SortItem = (e)=> {
+        if(e === ""){
+            setFilterTransaction(transaction)
+        }else{
+            const items = transaction.filter(item => item.action.includes(e))
+            setFilterTransaction(items)
+        }
+    }
 
     useEffect(()=>{
 
@@ -63,8 +73,9 @@ const App = () => {
     return ( 
         <div className={Styles.parent}>
             <div className={Styles.parent_center}>
+               
                 <ShowTransaction transaction={filterTransaction} deleteHandler={deleteHandler} Search ={Search} hazine = {hazine} darAmad={darAmad}/>
-                <AddTransaction addTransaction={addTransaction} />
+                <AddTransaction SortItem={SortItem} addTransaction={addTransaction} />
             </div>
         </div>
     );

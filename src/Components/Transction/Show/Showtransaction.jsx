@@ -1,7 +1,8 @@
+import Sort from "../../Sort/Sort";
 import  Styles  from "./ShowTransaction.module.css";
 
 
-const ShowTransaction = ({transaction , hazine , darAmad , Search , deleteHandler}) => {
+const ShowTransaction = ({transaction , hazine , darAmad , Search , deleteHandler , SortItem}) => {
     
     return (  
         <div className={Styles.ShowTransaction}>
@@ -39,6 +40,7 @@ const ShowTransaction = ({transaction , hazine , darAmad , Search , deleteHandle
                         </div>
                     )
                 })}
+
 
                 {/* <div className={Styles.result}>داده ای موجود نیست</div> */}
             </div>

@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import Sort from '../../Sort/Sort';
 import Styles from './AddTransaction.module.css'
-const AddTransaction = ({addTransaction}) => {
+const AddTransaction = ({addTransaction , SortItem}) => {
 
 
     const [values , setValues] = useState({
@@ -44,7 +45,7 @@ const AddTransaction = ({addTransaction}) => {
    
 
     return ( 
-        
+        <div>
         <form onSubmit={submitHandler} className={Styles.addTransaction}>
             
             <div className={Styles.group_title}><p dir='rtl'>ثبت تراکنش : </p></div>
@@ -62,6 +63,7 @@ const AddTransaction = ({addTransaction}) => {
             </div>
 
             <div className={Styles.group}>
+            <p dir='rtl' style={{marginRight:'5px'}}>تومان </p>
                 <input 
                     type="number" 
                     min={0} 
@@ -72,7 +74,7 @@ const AddTransaction = ({addTransaction}) => {
                     placeholder='هزینه یا درآمد دریافتی' 
                     style={{textAlign : 'center'}}
                 />
-                <p dir='rtl'>دریافت / هزینه : </p>
+                <p dir='rtl'>قیمت  : </p>
             </div>
             
             <div className={Styles.groupRadio}>
@@ -93,9 +95,12 @@ const AddTransaction = ({addTransaction}) => {
             </div>
 
             <button type='submit' className={Styles.submitBtn}>ثبت</button>
+
+
+
         </form>
-        
-        
+        <Sort SortItem={SortItem}/>
+</div>
     );
 }
  
