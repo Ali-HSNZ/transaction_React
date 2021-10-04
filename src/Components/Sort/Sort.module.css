@@ -24,11 +24,146 @@
     border: 1px solid rgb(3, 0, 153);
     border-radius: 5px;
 }
-@media only screen and (min-width : 320px){}
-@media only screen and (min-width : 460px){}
-@media only screen and (min-width : 600px){}
-@media only screen and (min-width : 720px){}
-@media only screen and (min-width : 800px){}
+@media only screen and (min-width : 320px){
+    .parent{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 15px;
+        background-color: white;
+        padding: 15px;
+        margin: 0 0 20px ;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width : 460px){
+    .parent{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 15px;
+        background-color: white;
+        padding: 15px;
+        margin: 0 0 20px ;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width : 600px){
+    .parent{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 15px;
+        background-color: white;
+        padding: 15px;
+        margin: 0 0 20px ;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width : 720px){
+    .parent{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 15px;
+        background-color: white;
+        padding: 15px;
+        margin: 0 0 20px ;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width : 800px){
+    .parent{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 15px;
+        background-color: white;
+        padding: 15px;
+        margin: 0 0 20px ;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}
 @media only screen and (min-width : 960px){
     .parent{
         width: 100%;
@@ -86,6 +221,90 @@
         border-radius: 5px;
     }
 }
-@media only screen and (min-width : 1180px){}
-@media only screen and (min-width : 1260px){}
-@media only screen and (min-width : 1366px){}
+@media only screen and (min-width : 1180px){
+    .parent{
+        width: auto;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 0 0 15px 0;
+        background-color: white;
+        padding: 15px;
+        margin-left: -1px;
+        margin-top: -1px;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width : 1260px){
+    .parent{
+        width: auto;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 0 0 15px 0;
+        background-color: white;
+        padding: 15px;
+        margin-left: -1px;
+        margin-top: -1px;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}
+@media only screen and (min-width : 1366px){
+    .parent{
+        width: auto;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:1px solid rgb(3, 0, 153);
+        border-radius: 0 0 15px 0;
+        background-color: white;
+        padding: 15px;
+        margin-left: -1px;
+        margin-top: -1px;
+    }
+    .parent p{
+        font-family: iransansweb;
+        font-size: 14px;
+        margin-left: 15px;
+    }
+    .sort{
+        width: 150px;
+        font-size: 14px;
+        font-family: iransansweb;
+        text-align: center;
+        direction: rtl;
+        border: 1px solid rgb(3, 0, 153);
+        border-radius: 5px;
+    }
+}

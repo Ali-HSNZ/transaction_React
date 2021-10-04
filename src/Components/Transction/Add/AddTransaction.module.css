@@ -113,7 +113,123 @@ input[type='radio']:checked:after {
     box-shadow:unset;
 }
 
-@media only screen and (min-width : 320px){}
+@media only screen and (min-width : 320px){
+    /* Add ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.addTransaction{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px ;
+    padding: 20px;
+    margin:20px 0;
+
+    border:1px solid rgb(3, 0, 153);
+}
+.group_title{
+    width: 100%;
+    height: auto;
+    text-align: right;
+    font-family: iransansweb;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+.group{
+    width: 100%;
+    height: auto;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;    
+    margin-bottom: 25px;
+}
+.inputGroup{
+    outline: none;
+    border: 1px solid  rgb(3, 0, 153);
+    border-radius: 5px;
+    height: 30px;
+    font-family: iransansweb;
+    padding: 0 10px;
+    font-size: 13px;
+    margin-right :5px;
+}
+.inputGroup:focus{
+   box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
+}
+.priceInput{
+    width: 160px;
+}
+.nameInput{
+    width: 230px;
+}
+.group p{
+    font-family: iranyekanweb;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+.groupRadio{
+    display: flex;
+    justify-content: space-evenly;
+}
+.radioLabel{
+    margin-right:6px;
+    font-family: iransansweb;
+    font-size: 14px;
+}
+.radioCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid rgb(3, 0, 153);
+}
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(3, 0, 153);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid rgb(3, 0, 153);
+}
+
+.submitBtn{
+    width: 70px;
+    height: 35px;
+    border: 1px solid rgb(0, 2, 150);
+    border-radius: 5px;
+    
+    background-color: rgb(241, 241, 241);
+    font-family: 'iransansweb';
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: 0 0 2px 0 rgba(16, 0, 107, 0.418);
+
+}
+.submitBtn:hover{
+    box-shadow:unset;
+}
+
+}
 @media only screen and (min-width : 460px){
     /* Add ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -348,8 +464,144 @@ input[type='radio']:checked:after {
 }
 
 }
-@media only screen and (min-width : 720px){}
-@media only screen and (min-width : 800px){}
+@media only screen and (min-width : 720px){
+    .addTransaction{
+        width: 100%;
+        height: 270px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px ;
+        padding: 20px;
+        margin:20px 0;
+
+        border:1px solid rgb(3, 0, 153);
+    }
+    .group_title{
+        width: 100%;
+        height: auto;
+        text-align: right;
+        font-family: iransansweb;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+    }
+    .group{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;    
+        margin-bottom: 25px;
+    }
+    .inputGroup{
+        outline: none;
+        border: 1px solid  rgb(3, 0, 153);
+        border-radius: 5px;
+        height: 30px;
+        font-family: iransansweb;
+        padding: 0 10px;
+        font-size: 13px;
+        margin-right :5px;
+    }
+    .inputGroup:focus{
+       box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
+    }
+    .priceInput{
+        width: 160px;
+    }
+    .nameInput{
+        width: 230px;
+    }
+    .group p{
+        font-family: iranyekanweb;
+        font-weight: 500;
+        font-size: 14px;
+    
+    }
+    .groupRadio{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .radioLabel{
+        margin-right:6px;
+        font-family: iransansweb;
+        font-size: 14px;
+    }
+    .radioCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width : 800px){
+    .addTransaction{
+        width: 100%;
+        height: 270px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px ;
+        padding: 20px;
+        margin:20px 0;
+
+        border:1px solid rgb(3, 0, 153);
+    }
+    .group_title{
+        width: 100%;
+        height: auto;
+        text-align: right;
+        font-family: iransansweb;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+    }
+    .group{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;    
+        margin-bottom: 25px;
+    }
+    .inputGroup{
+        outline: none;
+        border: 1px solid  rgb(3, 0, 153);
+        border-radius: 5px;
+        height: 30px;
+        font-family: iransansweb;
+        padding: 0 10px;
+        font-size: 13px;
+        margin-right :5px;
+    }
+    .inputGroup:focus{
+       box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
+    }
+    .priceInput{
+        width: 160px;
+    }
+    .nameInput{
+        width: 230px;
+    }
+    .group p{
+        font-family: iranyekanweb;
+        font-weight: 500;
+        font-size: 14px;
+    
+    }
+    .groupRadio{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .radioLabel{
+        margin-right:6px;
+        font-family: iransansweb;
+        font-size: 14px;
+    }
+    .radioCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 @media only screen and (min-width : 960px){
     .addTransaction{
         width: 100%;
@@ -489,6 +741,207 @@ input[type='radio']:checked:after {
     }
     
 }
-@media only screen and (min-width : 1180px){}
-@media only screen and (min-width : 1260px){}
-@media only screen and (min-width : 1366px){}
+@media only screen and (min-width : 1180px){
+    .addTransaction{
+        width: 400px;
+        height: 270px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0 15px 0 0 ;
+        padding: 20px;
+        margin : 0 0 0 -1px;
+        border:1px solid rgb(3, 0, 153);
+    }
+    .group_title{
+        width: 100%;
+        height: auto;
+        text-align: right;
+        font-family: iransansweb;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+    }
+    .group{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;    
+        margin-bottom: 25px;
+    }
+    .inputGroup{
+        outline: none;
+        border: 1px solid  rgb(3, 0, 153);
+        border-radius: 5px;
+        height: 30px;
+        font-family: iransansweb;
+        padding: 0 10px;
+        font-size: 13px;
+        margin-right :5px;
+    }
+    .inputGroup:focus{
+       box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
+    }
+    .priceInput{
+        width: 160px;
+    }
+    .nameInput{
+        width: 230px;
+    }
+    .group p{
+        font-family: iranyekanweb;
+        font-weight: 500;
+        font-size: 14px;
+    
+    }
+    .groupRadio{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .radioLabel{
+        margin-right:6px;
+        font-family: iransansweb;
+        font-size: 14px;
+    }
+    .radioCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width : 1260px){
+    .addTransaction{
+        width: 400px;
+        height: 270px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0 15px 0 0 ;
+        padding: 20px;
+        margin : 0 0 0 -1px;
+        border:1px solid rgb(3, 0, 153);
+    }
+    .group_title{
+        width: 100%;
+        height: auto;
+        text-align: right;
+        font-family: iransansweb;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+    }
+    .group{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;    
+        margin-bottom: 25px;
+    }
+    .inputGroup{
+        outline: none;
+        border: 1px solid  rgb(3, 0, 153);
+        border-radius: 5px;
+        height: 30px;
+        font-family: iransansweb;
+        padding: 0 10px;
+        font-size: 13px;
+        margin-right :5px;
+    }
+    .inputGroup:focus{
+       box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
+    }
+    .priceInput{
+        width: 160px;
+    }
+    .nameInput{
+        width: 230px;
+    }
+    .group p{
+        font-family: iranyekanweb;
+        font-weight: 500;
+        font-size: 14px;
+    
+    }
+    .groupRadio{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .radioLabel{
+        margin-right:6px;
+        font-family: iransansweb;
+        font-size: 14px;
+    }
+    .radioCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media only screen and (min-width : 1366px){
+    .addTransaction{
+        width: 400px;
+        height: 270px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 0 15px 0 0 ;
+        padding: 20px;
+        margin : 0 0 0 -1px;
+        border:1px solid rgb(3, 0, 153);
+    }
+    .group_title{
+        width: 100%;
+        height: auto;
+        text-align: right;
+        font-family: iransansweb;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+    }
+    .group{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;    
+        margin-bottom: 25px;
+    }
+    .inputGroup{
+        outline: none;
+        border: 1px solid  rgb(3, 0, 153);
+        border-radius: 5px;
+        height: 30px;
+        font-family: iransansweb;
+        padding: 0 10px;
+        font-size: 13px;
+        margin-right :5px;
+    }
+    .inputGroup:focus{
+       box-shadow: 0 0 1.5px 0 rgba(3, 0, 153, 0.562);
+    }
+    .priceInput{
+        width: 160px;
+    }
+    .nameInput{
+        width: 230px;
+    }
+    .group p{
+        font-family: iranyekanweb;
+        font-weight: 500;
+        font-size: 14px;
+    
+    }
+    .groupRadio{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .radioLabel{
+        margin-right:6px;
+        font-family: iransansweb;
+        font-size: 14px;
+    }
+    .radioCenter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
