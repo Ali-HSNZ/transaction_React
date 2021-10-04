@@ -105,7 +105,17 @@
     padding-right: 13px;
     border-right: 1px solid rgb(3, 0, 153);
 }
+.deleteBtn{
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    font-family: iransansweb;
+    font-size: 14px;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
 
+}
 @media only screen and (min-width : 320px){
     .ShowTransaction{
         width: 100%;
@@ -215,6 +225,17 @@
         border-right: 1px solid rgb(3, 0, 153);
     }
 }
+.deleteBtn{
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    font-family: iransansweb;
+    font-size: 14px;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+
+}
 @media only screen and (min-width : 460px){
     .ShowTransaction{
         width: 100%;
@@ -322,6 +343,17 @@
     .name_btn_parent p {
         padding-right: 13px;
         border-right: 1px solid rgb(3, 0, 153);
+    }
+    .deleteBtn{
+        padding: 5px 10px;
+        border: none;
+        background-color: transparent;
+        font-family: iransansweb;
+        font-size: 14px;
+        border-radius: 10px;
+        color: red;
+        cursor: pointer;
+    
     }
 }
 @media only screen and (min-width : 600px){
@@ -431,6 +463,17 @@
     .name_btn_parent p {
         padding-right: 13px;
         border-right: 1px solid rgb(3, 0, 153);
+    }
+    .deleteBtn{
+        padding: 5px 10px;
+        border: none;
+        background-color: transparent;
+        font-family: iransansweb;
+        font-size: 14px;
+        border-radius: 10px;
+        color: red;
+        cursor: pointer;
+    
     }
 }
 @media only screen and (min-width : 720px){}
@@ -543,6 +586,17 @@
         padding-right: 13px;
         border-right: 1px solid rgb(3, 0, 153);
     }
+    .deleteBtn{
+        padding: 5px 10px;
+        border: none;
+        background-color: transparent;
+        font-family: iransansweb;
+        font-size: 14px;
+        border-radius: 10px;
+        color: red;
+        cursor: pointer;
+    
+    }
 }
 @media only screen and (min-width : 1080px){
     .ShowTransaction{
@@ -651,6 +705,17 @@
     .name_btn_parent p {
         padding-right: 13px;
         border-right: 1px solid rgb(3, 0, 153);
+    }
+    .deleteBtn{
+        padding: 5px 10px;
+        border: none;
+        background-color: transparent;
+        font-family: iransansweb;
+        font-size: 14px;
+        border-radius: 10px;
+        color: red;
+        cursor: pointer;
+    
     }
 }
 @media only screen and (min-width : 1180px){}
