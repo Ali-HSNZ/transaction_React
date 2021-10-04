@@ -11,7 +11,6 @@ const App = () => {
     const [expense , setExpense] = useState([])
     const [income , setIncome] = useState([])
 
-    
     const addTransaction = (getTransaction) => {
         setTransaction([...transaction , {...getTransaction,id : Date.now()}])
     }
@@ -66,14 +65,13 @@ const App = () => {
         setFilterTransaction(transaction)
     },[transaction])
 
-
-
     return ( 
         <div className={Styles.parent}>
             <div className={Styles.parent_center}>
                
                 <ShowTransaction transaction={filterTransaction} deleteHandler={deleteHandler} Search ={Search} expense = {expense} income={income}/>
                 <AddTransaction SortItem={SortItem} addTransaction={addTransaction} />
+                
             </div>
         </div>
     );

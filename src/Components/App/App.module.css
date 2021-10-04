@@ -8,11 +8,11 @@
 }
 .parent{
     width: 100%;
-    height: 100vh ;
+    height: auto ;
     display: flex;
+  
     justify-content: center;
     align-items: center;
-    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
     background-color: azure;
 }
 .parent_center{
@@ -20,5 +20,196 @@
     width: auto;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    flex-direction: column-reverse;
+}
+@media only screen and (min-width : 320px){
+    .parent{
+        width: 100%;
+        height: auto ;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (min-width : 460px){
+    .parent{
+        width: 100%;
+        height: auto ;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (min-width : 600px){
+    .parent{
+        width: 100%;
+        height: auto ;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (min-width : 720px){
+    .parent{
+        width: 100%;
+        height: auto ;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (min-width : 800px){
+    .parent{
+        width: 100%;
+        height: auto ;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (min-width : 960px){
+    .parent{
+        width: 100%;
+        height: auto ;
+        display: flex;
+      
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center; 
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (min-width : 1080px){
+    .parent{
+        width: 100%;
+        height: 100vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+}
+@media only screen and (min-width : 1180px){
+    .parent{
+        width: 100%;
+        height: 100vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+}
+@media only screen and (min-width : 1260px){
+    .parent{
+        width: 100%;
+        height: 100vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+}
+@media only screen and (min-width : 1366px){
+    .parent{
+        width: 100%;
+        height: 100vh ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: azure;
+    }
+    .parent_center{
+        max-width: 1600px;
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
 }
